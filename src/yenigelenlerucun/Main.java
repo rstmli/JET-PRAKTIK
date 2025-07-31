@@ -1,6 +1,7 @@
 package yenigelenlerucun;
 
 public class Main {
+
     public static void main(String[] args) {
         Mercedes merc = new Mercedes("c200","Black");
         Mercedes merc2 = new Mercedes("c300","White");
