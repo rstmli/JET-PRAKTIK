@@ -8,5 +8,6 @@ public class Main {
         for (int i = 0; i < mercList.length; i++) {
             if(mercList[i].getColor().equals("Black") ) mercList[i].displayInfo();
         }
+
     }
 }
