@@ -13,8 +13,8 @@ public class Main {
         Book[] aytacBookList = {book1,book3};
 
 
-        Library asifLibrary = new Library("Asif Library",asifBookList);
-        Library aytacLibrary = new Library("Aytac Library",aytacBookList);
+        Library asifLibrary = new Library("Asif library_Paket_Structor.LibraryTwo",asifBookList);
+        Library aytacLibrary = new Library("Aytac library_Paket_Structor.LibraryTwo",aytacBookList);
 
         System.out.println(aytacLibrary);
 

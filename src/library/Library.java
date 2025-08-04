@@ -29,7 +29,7 @@ public class Library {
 
     @Override
     public String toString() {
-        return "Library{" +
+        return "library_Paket_Structor.LibraryTwo{" +
                 "libraryName='" + libraryName + '\'' +
                 ", books=" + Arrays.toString(books) +
                 '}';
