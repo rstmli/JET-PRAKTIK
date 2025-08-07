@@ -1,9 +1,17 @@
 package Arraylist_praktik;
 
+import java.util.Objects;
+
 public class Human {
     private String fullName;
     private boolean gender;
     private int age;
+
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(fullName, gender, age);
+    }
 
     @Override
     public String toString() {
