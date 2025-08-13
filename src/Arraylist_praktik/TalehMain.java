@@ -50,7 +50,15 @@ public class TalehMain {
 
 
     public static  String ilkAdBoyuducu(String name){
-        return name.substring(0,1).toUpperCase() + name.substring(1);
+        if(name.isEmpty() || name.equals(null)){
+            return "ad yoxdur";
+        }
+        name = name.trim();
+        String[] hisseler = name.split(" ");
+
+//        name = hisseler[0];
+return hisseler[0];
+//        return (name.trim().substring(0,1).toUpperCase() + name.trim().substring(1).trim()).describeConstable();
 
 
 
